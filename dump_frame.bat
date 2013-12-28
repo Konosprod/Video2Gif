@@ -1,0 +1,1 @@
+ffmpeg.exe -i %1 -pix_fmt rgb24 -r 12 -t %2 -ss %3 "tmp/f%%4d.png"
